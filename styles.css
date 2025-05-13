@@ -1,72 +1,74 @@
 body{
-    background-image: url(fondo.jpg);
     display: flex;
-    height: 100vh;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  min-height: 100vh;       /* toma todo el alto de la ventana */
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;               /* elimina espacio blanco del body */
 }
 
-#ventanaMain{
-    display: flex;
-    width: 900px;        
-    height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(0, 0%, 8%);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+#img{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    position: relative;
+    right: 30px;
+    margin-top: 20px;
 }
 
-#ventana2{
-    width: 250px;        
-  height: 400px;       
-  background-color: hsl(0, 0%, 12%);
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  border-radius: 8px;
+
+#caja1{
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 6px 6px;
+    width: 320px;
+    min-height: 430px;
+}
+
+#titulo{
+    font-size:150%;
+    font-family: 'Figtree';
+    margin-left: 10px;
+}
+
+#fecha{
+    font-size: smaller;
+    font-family: 'Figtree';
+    margin-left:10px ;
+}
+
+#learning{
+    padding: 5px;
+    font-family:'Figtree';
+    font-size: smaller;
+    font-weight: bold;
+    text-align: center;
+    background-color:hsl(47, 88%, 63%) ;
+    border-radius: 3px;
+    width: 70px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#texto{
+    font-size: 15px;
+    margin-left: 10px;
+    font-family:'Figtree';
+    text-align:left;
 }
 
 #avatar{
     position: relative;
-    left: 32px;
+    right: 15px;
+    width: 30px;
+    height: auto;
 }
 
-#texto1{
-    font-size: medium;
-    font-family: "Inter", sans-serif;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-  align-items: center;
-}
-
-#texto2{
-    font-family: "Inter", sans-serif;
-    font-size: smaller;
-    color: hsl(75, 94%, 57%);
-    display: flex;
-    justify-content: center;
-  align-items: center;
-  
-}
-
-#texto{
-    font-family: "Inter", sans-serif;
-    font-size:small;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-  align-items: center;
-}
-
-.img{
-    width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-#git{
-    font-family: "Inter", sans-serif;;
-    width: 250px;        
-    height: 45px;
-    border-radius: 5px;
+#name{
+    font-family:'Figtree' ;
+    font-weight: bold;
+    position: relative;
+    left: 65px;    
+    bottom: 45px;
 }
