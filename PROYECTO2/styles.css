@@ -1,0 +1,74 @@
+body{
+    display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  min-height: 100vh;       /* toma todo el alto de la ventana */
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;               /* elimina espacio blanco del body */
+}
+
+#img{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    position: relative;
+    right: 30px;
+    margin-top: 20px;
+}
+
+
+#caja1{
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 6px 6px;
+    width: 320px;
+    min-height: 430px;
+}
+
+#titulo{
+    font-size:150%;
+    font-family: 'Figtree';
+    margin-left: 10px;
+}
+
+#fecha{
+    font-size: smaller;
+    font-family: 'Figtree';
+    margin-left:10px ;
+}
+
+#learning{
+    padding: 5px;
+    font-family:'Figtree';
+    font-size: smaller;
+    font-weight: bold;
+    text-align: center;
+    background-color:hsl(47, 88%, 63%) ;
+    border-radius: 3px;
+    width: 70px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#texto{
+    font-size: 15px;
+    margin-left: 10px;
+    font-family:'Figtree';
+    text-align:left;
+}
+
+#avatar{
+    position: relative;
+    right: 15px;
+    width: 30px;
+    height: auto;
+}
+
+#name{
+    font-family:'Figtree' ;
+    font-weight: bold;
+    position: relative;
+    left: 65px;    
+    bottom: 45px;
+}
