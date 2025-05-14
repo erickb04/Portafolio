@@ -1,0 +1,55 @@
+body{
+    background-color: aquamarine;
+}
+
+.botonav{
+    width:90px;
+    height: 45px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(338, 5%, 85%);;
+}
+
+#barranav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-row: 1;
+    height: 100vh;
+  grid-template-columns: repeat(10,1fr); /* 2 columnas iguales */
+  padding: 0px;
+  background-color: #ff0000;
+  
+}
+
+.redes{
+    grid-column: 1/2;
+    grid-row: 1;
+    background-color: blue;
+}
+
+.presentacion {
+    grid-column: 2/7;
+    grid-row: 1;
+  background-color: #f3d421;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.imagen{
+    grid-column: 7/11;
+    grid-row: 1;
+    background-color: rgb(106, 0, 255);
+}
+
+
+
+
+
